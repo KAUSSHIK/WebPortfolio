@@ -22,56 +22,34 @@ export const NavBar = {
 	skills: 'Skills'
 };
 
-export const getPlatfromIcon = (platform: Platform): Icons => {
+export const getPlatfromIcon = (platform: Platform): Icons | undefined => {
 	switch (platform) {
 		case Platform.GitHub:
 			return Icons.GitHub;
 		case Platform.Linkedin:
 			return Icons.LinkedIn;
-		case Platform.StackOverflow:
-			return Icons.StackOverflow;
-		case Platform.Facebook:
-			return Icons.Facebook;
 		case Platform.Email:
 			return Icons.Email;
-		case Platform.Twitter:
-			return Icons.Twitter;
-		case Platform.Youtube:
-			return Icons.Youtube;
 	}
+	return undefined;
 };
 
 export const HOME: HomePageParams = {
 	title: 'Home',
-	name: 'Name',
-	lastName: 'LASTNAME',
+	name: 'Kausshik',
+	lastName: 'Manojkumar',
 	description:
-		'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!',
+		'Hi, I am Kausshik Manojkumar, a passionate software engineer majoring in CS + Math @ Iowa State University. My passion for software lies with dreaming up ideas and making them come true with code. I love collaborating with other people who would love to make projects which, in turn, make a quantifiable change to tomorrow\'s society.',
 	links: [
-		{ platform: Platform.GitHub, link: 'https://github.com/' },
+		{ platform: Platform.GitHub, link: 'https://github.com/KAUSSHIK' },
 		{
 			platform: Platform.Linkedin,
-			link: 'https://www.linkedin.com/'
+			link: 'https://www.linkedin.com/in/kausshikm'
 		},
-		{
-			platform: Platform.Twitter,
-			link: 'https://twitter.com/'
-		},
-		{
-			platform: Platform.StackOverflow,
-			link: 'https://stackoverflow.com/'
-		},
+		
 		{
 			platform: Platform.Email,
-			link: 'riadh-adrani@hotmail.fr'
-		},
-		{
-			platform: Platform.Youtube,
-			link: 'https://www.youtube.com'
-		},
-		{
-			platform: Platform.Facebook,
-			link: 'https://www.facebook.com'
+			link: 'kausshikmanojkumar@gmail.com'
 		}
 	]
 };

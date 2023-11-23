@@ -9,28 +9,20 @@ export type ArrayElementType<ArrayType extends readonly unknown[]> =
 
 const MY_SKILLS = [
 	s({
-		slug: 'js',
+		slug: 'java',
+		color: 'orange',
+		description:
+			'Experienced with Java',
+		logo: Assets.Java,
+		name: 'Java'
+	}),
+	s({
+		slug: 'py',
 		color: 'yellow',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-		logo: Assets.JavaScript,
-		name: 'Javascript'
-	}),
-	s({
-		slug: 'ts',
-		color: 'blue',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-		logo: Assets.TypeScript,
-		name: 'Typescript'
-	}),
-	s({
-		slug: 'css',
-		color: 'blue',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-		logo: Assets.CSS,
-		name: 'CSS'
+			'Experienced with Python',
+		logo: Assets.Python,
+		name: 'Python'
 	}),
 	s({
 		slug: 'html',
@@ -41,28 +33,108 @@ const MY_SKILLS = [
 		name: 'HTML'
 	}),
 	s({
-		slug: 'sass',
-		color: 'pink',
+		slug: 'c',
+		color: 'blue',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-		logo: Assets.Sass,
-		name: 'Sass'
+			'Familiar with C',
+		logo: Assets.C,
+		name: 'C'
 	}),
 	s({
-		slug: 'reactjs',
-		color: 'cyan',
+		slug: 'cpp',
+		color: 'blue',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-		logo: Assets.ReactJs,
-		name: 'React Js'
+			'Familiar with C++',
+		logo: Assets.Cpp,
+		name: 'C++'
 	}),
 	s({
-		slug: 'svelte',
+		slug: 'css',
+		color: 'blue',
+		description:
+			'Familiar with CSS',
+		logo: Assets.CSS,
+		name: 'CSS'
+	}),
+	s({
+		slug: 'js',
+		color: 'yellow',
+		description:
+			'Familiar with JavaScript',
+		logo: Assets.JavaScript,
+		name: 'JavaScript'
+	}),
+	s({
+		slug: 'AWS',
+		color: 'grey',
+		description:
+			'Familiar with AWS S3, CloudFront, and EC2',
+		logo: Assets.AWS,
+		name: 'AWS'
+	}),
+	s({
+		slug: 'Tf',
 		color: 'orange',
-		description: svelte,
-		logo: Assets.Svelte,
-		name: 'Svelte'
-	})
+		description:
+			'Actively using TensorFlow to develop a machine learning models',
+		logo: Assets.TensorFlow,
+		name: 'TensorFlow'
+	}),
+	s({
+		slug: 'mysql',
+		color: 'blue',
+		description: 'Familiar with MySQL and Database Management',
+		logo: Assets.MySQL,
+		name: 'MySQL'
+	}),
+	s({
+		slug: 'MongoDB',
+		color: 'green',
+		description:
+			'Familiar with creating MongoDB databases and querying them',
+		logo: Assets.MongoDB,
+		name: 'MongoDB'
+	}),
+	s({
+		slug: 'neo4j',
+		color: 'blue',
+		description:
+			'Fairly familiar with Neo4j and Graph Databases',
+		logo: Assets.Neo4j,
+		name: 'Neo4j'
+	}),
+	s({
+		slug: 'numpy',
+		color: 'blue',
+		description:
+			'Used NumPy for data analysis and manipulation in ML projects',
+		logo: Assets.Numpy,
+		name: 'NumPy'
+	}),
+	s({
+		slug: 'Spring',
+		color: 'green',
+		description:
+			'Developed a Android Application with a Spring backend',
+		logo: Assets.Spring,
+		name: 'Spring'
+	}),
+	s({
+		slug: 'numpy',
+		color: 'blue',
+		description:
+			'Used NumPy for data analysis and manipulation in ML projects',
+		logo: Assets.Numpy,
+		name: 'NumPy'
+	}),
+	s({
+		slug: 'numpy',
+		color: 'blue',
+		description:
+			'Used NumPy for data analysis and manipulation in ML projects',
+		logo: Assets.Numpy,
+		name: 'NumPy'
+	}),
 ];
 
 export default MY_SKILLS;

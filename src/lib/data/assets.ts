@@ -70,7 +70,13 @@ const Assets = {
 	Jest: a('jest.png'),
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
-	Postcss: a('postcss.svg')
+	Postcss: a('postcss.svg'),
+	Tf: a('tf.svg'),
+	TensorFlow: a('tensorflow-icon.svg'),
+	MySQL: a('mysql.svg'),
+	Spring: a('spring.svg'),
+	Bash: a('bash.svg'),
+	Linux: a('linux.svg'),
 };
 
 export default Assets;
