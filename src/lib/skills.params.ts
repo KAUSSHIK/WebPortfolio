@@ -120,20 +120,44 @@ const MY_SKILLS = [
 		name: 'Spring'
 	}),
 	s({
-		slug: 'numpy',
+		slug: 'Linux',
 		color: 'blue',
 		description:
-			'Used NumPy for data analysis and manipulation in ML projects',
-		logo: Assets.Numpy,
-		name: 'NumPy'
+			'Familiar with Linux based operating systems',
+		logo: Assets.Linux,
+		name: 'Linux'
 	}),
 	s({
-		slug: 'numpy',
+		slug: 'bash',
+		color: 'black',
+		description:
+			'Familiar with bash scripting',
+		logo: Assets.Bash,
+		name: 'Bash'
+	}),
+	s({
+		slug: 'github',
+		color: 'black',
+		description:
+			'Proficient with version control using Git and GitHub',
+		logo: Assets.Github,
+		name: 'Github'
+	}),
+	s({
+		slug: 'gitlab',
+		color: 'black',
+		description:
+			'Proficient in using Gitlab for version control, for group projects. Also used Gitlab CI/CD for continuous integration and deployment',
+		logo: Assets.Gitlab,
+		name: 'Gitlab'
+	}),
+	s({
+		slug: 'svn',
 		color: 'blue',
 		description:
-			'Used NumPy for data analysis and manipulation in ML projects',
-		logo: Assets.Numpy,
-		name: 'NumPy'
+			'Use SVN for version control for my work at Collins Aerospace',
+		logo: Assets.Svn,
+		name: 'Apache Subversion'
 	}),
 ];
 

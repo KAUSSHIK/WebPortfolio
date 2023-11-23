@@ -4,20 +4,21 @@ import type { Project } from './types';
 
 const MY_PROJECTS: Array<Project> = [
 	{
-		slug: 'slick-portfolio-angular',
-		color: '#5e95e3',
+		slug: 'swipehire-android-application',
+		color: '#49ab58',
 		description:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
 		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
-		logo: Assets.Unknown,
-		name: 'Slick Portfolio',
+			'Imagine a crossover between Tinder and LinkedIn, but for hiring. SwipeHire is a new way to hire, and a new way to get hired.',
+		links: [{ to: 'https://github.com/KAUSSHIK/coms309', label: 'SwipeHire on Github' }],
+		logo: Assets.Springio,
+		name: 'SwipeHire: A new way to hire',
 		period: {
-			from: new Date()
+			from: new Date('2023-01-16'),
+			to: new Date('2023-05-16')
 		},
-		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Website Template'
+		skills: getSkills('java', 'Spring', 'mysql', 'gitlab'),
+		type: 'Android Application',
 	},
 	{
 		slug: 'slick-portfolio-svelte',

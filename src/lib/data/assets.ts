@@ -77,6 +77,10 @@ const Assets = {
 	Spring: a('spring.svg'),
 	Bash: a('bash.svg'),
 	Linux: a('linux.svg'),
+	Github: a('github.svg'),
+	Gitlab: a('gitlab.svg'),
+	Svn: a('svn.svg'),
+	Springio: a('springio.svg'),
 };
 
 export default Assets;
