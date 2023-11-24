@@ -7,10 +7,10 @@ const MY_PROJECTS: Array<Project> = [
 		slug: 'swipehire-android-application',
 		color: '#49ab58',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'SwipeHire is a swipe-based matching app (like Tinder) made to streamline the recruitment process. The app serves as a portal to hire candidates for open positions. The hiring manager of a company sees the candidates and chooses who is fit for the next round of interviews by \'swiping\' on them. Think of it as an offspring of LinkedIn and Tinder, but for hiring.<br> <br> To watch a <a href="https://www.youtube.com/watch?v=sh5D8t5I2jo">demo</a> of the app, click on the hyperlink.',
 		shortDescription:
 			'Imagine a crossover between Tinder and LinkedIn, but for hiring. SwipeHire is a new way to hire, and a new way to get hired.',
-		links: [{ to: 'https://github.com/KAUSSHIK/coms309', label: 'SwipeHire on Github' }],
+		links: [{ to: 'https://github.com/KAUSSHIK/SwipeHire', label: 'SwipeHire on Github' }],
 		logo: Assets.Springio,
 		name: 'SwipeHire: A new way to hire',
 		period: {
@@ -21,15 +21,15 @@ const MY_PROJECTS: Array<Project> = [
 		type: 'Android Application',
 	},
 	{
-		slug: 'slick-portfolio-svelte',
-		color: '#ff3e00',
+		slug: 'brain-tumor-classification',
+		color: '#f27f1b',
 		description:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+			'A Deep Learning model to classify brain tumors from 2D MRI scans comprising of over 3500 images.',
 		shortDescription:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
-		logo: Assets.Svelte,
-		name: 'Slick Portfolio',
+			'A Deep Learning model to classify brain tumors from 2D MRI scans comprising of over 3500 images.',
+		links: [{ to: 'https://github.com/KAUSSHIK/BrainTumorClassification', label: 'Classifier on Github' }],
+		logo: Assets.TensorFlow,
+		name: 'Brain Tumor Classification',
 		period: {
 			from: new Date()
 		},
