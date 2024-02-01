@@ -4,15 +4,15 @@ import { ContractType, type Experience } from './types';
 
 const MY_EXPERIENCES: Array<Experience> = [
 	{
-		slug: 'open-sourcer',
-		company: 'Self-employed',
+		slug: 'collins-aerospace',
+		company: 'Collins Aerospace',
 		description: 'Creating awesome tools for developers.',
-		contract: ContractType.SelfEmployed,
+		contract: ContractType.Internship,
 		type: 'Software Development',
-		location: 'Home',
+		location: 'Cedar Rapids, IA',
 		period: { from: new Date() },
 		skills: getSkills('ts', 'js'),
-		name: 'Open Source Developer',
+		name: 'Software Engineering Intern',
 		color: '#ffffff',
 		links: [],
 		logo: Assets.Unknown,
