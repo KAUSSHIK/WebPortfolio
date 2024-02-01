@@ -42,7 +42,7 @@
 		<p>{period}</p>
 	</div>
 	<p class="text-[0.95em] text-[var(--secondary-text)] font-300 m-t-20px m-b-40px flex-1">
-		{project.shortDescription}
+		{@html project.shortDescription}
 	</p>
 	<div class="row justify-between text-0.8em font-400">
 		<Chip>{from}</Chip>

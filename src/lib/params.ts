@@ -39,7 +39,7 @@ export const HOME: HomePageParams = {
 	name: 'Kausshik',
 	lastName: 'Manojkumar',
 	description:
-		'Hi, I am Kausshik Manojkumar, a passionate software engineer majoring in CS + Math @ Iowa State University. My passion for software lies with dreaming up ideas and making them come true with code. I love collaborating with other people who would love to make projects which, in turn, make a quantifiable change to tomorrow\'s society. Please click the links on the Navigation Bar to learn more about me, my work, and my projects.',
+		'<br>Hi, I am Kausshik Manojkumar, a passionate software engineer majoring in CS + Math @ Iowa State University.<br><br> My passion for software lies with dreaming up ideas and making them come true with code. I love collaborating with other people who would love to make projects which, in turn, make a quantifiable change to tomorrow\'s society.<br><br> Please click the links on the Navigation Bar to learn more about me, my work, and my projects.😊',
 	links: [
 		{ platform: Platform.GitHub, link: 'https://github.com/KAUSSHIK' },
 		{

@@ -7,9 +7,9 @@ const MY_PROJECTS: Array<Project> = [
 		slug: 'swipehire-android-application',
 		color: '#49ab58',
 		description:
-			'SwipeHire is a swipe-based matching app (like Tinder) made to streamline the recruitment process. The app serves as a portal to hire candidates for open positions. The hiring manager of a company sees the candidates and chooses who is fit for the next round of interviews by \'swiping\' on them. Think of it as an offspring of LinkedIn and Tinder, but for hiring.<br> <br> To watch a <a href="https://www.youtube.com/watch?v=sh5D8t5I2jo">demo</a> of the app, click on the hyperlink.',
+			'SwipeHire is a swipe-based matching app designed to revolutionize the recruitment process. This Android application, akin to a blend of LinkedIn and Tinder, enables hiring managers to efficiently select candidates for interviews.<div style="height: 10px;"></div>My role involved backend development, where I utilized Spring Boot, Maven, Hibernate, and MySQL. I implemented robust data structures and algorithms to ensure optimal performance and security.<div style="height: 10px;"></div>Additionally, I played a key role in establishing Continuous Integration/Continuous Deployment (CI/CD) pipelines, enhancing the app\'s functionality and user experience.<div style="height: 10px;"></div>For more details, explore the <a href="https://github.com/KAUSSHIK/SwipeHire">GitHub repository</a> or view my resume.<br><br>To watch a demo of the app, click on the <a href="https://www.youtube.com/watch?v=sh5D8t5I2jo">link</a>.',
 		shortDescription:
-			'Imagine a crossover between Tinder and LinkedIn, but for hiring. SwipeHire is a new way to hire, and a new way to get hired.',
+			'Imagine a crossover between Tinder and LinkedIn, but for hiring. SwipeHire is a new way to hire, and a new way to get hired.<br><br><b>Role:</b> Backend Developer',
 		links: [{ to: 'https://github.com/KAUSSHIK/SwipeHire', label: 'SwipeHire on Github' }],
 		logo: Assets.Springio,
 		name: 'SwipeHire: A new way to hire',
@@ -19,6 +19,32 @@ const MY_PROJECTS: Array<Project> = [
 		},
 		skills: getSkills('java', 'Spring', 'mysql', 'gitlab'),
 		type: 'Android Application',
+		screenshots: [
+			{
+				label: 'screen 1',
+				src: '/Users/kausshik/WebPortfolio/Files/img1.png'
+			},
+			{
+				label: '2',
+				src: 'https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60'
+			},
+			{
+				label: '3',
+				src: 'https://images.unsplash.com/photo-1537432376769-00f5c2f4c8d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
+			},
+			{
+				label: '4',
+				src: 'https://images.unsplash.com/photo-1542903660-eedba2cda473?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
+			},
+			{
+				label: '5',
+				src: 'https://images.unsplash.com/photo-1619410283995-43d9134e7656?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
+			},
+			{
+				label: '6',
+				src: 'https://images.unsplash.com/photo-1585079542156-2755d9c8a094?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
+			}
+		]
 	},
 	{
 		slug: 'brain-tumor-classification',
