@@ -47,6 +47,7 @@ export interface Project extends Item {
 	};
 	type: string;
 	skills: Array<Skill>;
+	youtubeEmbedUrl?: string; 
 }
 
 export interface Experience extends Project {
