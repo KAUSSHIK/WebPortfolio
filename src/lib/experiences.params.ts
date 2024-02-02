@@ -6,17 +6,17 @@ const MY_EXPERIENCES: Array<Experience> = [
 	{
 		slug: 'collins-aerospace',
 		company: 'Collins Aerospace',
-		description: 'Creating awesome tools for developers.',
+		description: 'Working as a software developer intern at Collins Aerospace a subsidiary of Raytheon Technologies (RTX).',
 		contract: ContractType.Internship,
 		type: 'Software Development',
 		location: 'Cedar Rapids, IA',
-		period: { from: new Date() },
-		skills: getSkills('ts', 'js'),
+		period: { from: new Date('2023-05-29') },
+		skills: getSkills('svn', 'js', 'html'),
 		name: 'Software Engineering Intern',
 		color: '#ffffff',
 		links: [],
-		logo: Assets.Unknown,
-		shortDescription: ''
+		logo: Assets.RTX,
+		shortDescription: 'At Collins Aerospace, I executed high-level and low-level tests within an Agile environment, significantly enhancing software reliability. My role involved translating requirements into structured ADA code, aligning with project objectives for flight management systems. I led the formulation and refinement of test cases, improving testing efficiency and mitigating security risks. Additionally, I played a key role in updating an old code base with newer calculations to improve the accuracy of flight management systems'
 	},
 	{
 		slug: 'software-freelance',
@@ -31,7 +31,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		color: '#ffffff',
 		links: [],
 		logo: Assets.Unknown,
-		shortDescription: ''
+		shortDescription: 'At Collins Aerospace, I executed high-level and low-level tests within an Agile environment, significantly enhancing software reliability. My role involved translating requirements into structured ADA code, aligning with project objectives for flight management systems. I led the formulation and refinement of test cases, improving testing efficiency and mitigating security risks. Additionally, I played a key role in updating an old code base with newer calculations to improve the accuracy of flight management systems'
 	},
 	{
 		slug: 'software-freelance-junior',

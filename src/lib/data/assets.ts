@@ -81,6 +81,7 @@ const Assets = {
 	Gitlab: a('GitLab-Light.svg'),
 	Svn: a('svn.svg'),
 	Springio: a('springio.svg'),
+	RTX: a('RTX.png'),
 };
 
 export default Assets;
