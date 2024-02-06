@@ -78,6 +78,7 @@ const Assets = {
 	Bash: a('bash.svg'),
 	Linux: a('linux.svg'),
 	Github: a('github.svg'),
+	github: a('github.png'),
 	Gitlab: a('GitLab-Light.svg'),
 	Svn: a('svn.svg'),
 	Springio: a('springio.svg'),

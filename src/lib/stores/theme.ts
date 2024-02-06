@@ -3,6 +3,7 @@ import { writable } from 'svelte/store';
 
 const key = '@riadh-adrani-theme';
 
+
 const updateLocalStorage = (value: boolean) => {
 	if (browser) {
 		localStorage.setItem(key, JSON.stringify(value));
@@ -22,15 +23,25 @@ export const toggleTheme = (value?: boolean) =>
 		return $v;
 	});
 
+// export const onHydrated = () => {
+// 	const fromStore = localStorage.getItem(key);
+
+// 	if (!fromStore) {
+// 		if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+// 			// dark mode
+// 			toggleTheme(true);
+// 		}
+// 	} else {
+// 		toggleTheme(JSON.parse(fromStore));
+// 	}
+// };
 export const onHydrated = () => {
 	const fromStore = localStorage.getItem(key);
-
+  
 	if (!fromStore) {
-		if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-			// dark mode
-			toggleTheme(true);
-		}
+	  // Always default to light theme
+	  toggleTheme(false);
 	} else {
-		toggleTheme(JSON.parse(fromStore));
+	  toggleTheme(JSON.parse(fromStore));
 	}
-};
+  };

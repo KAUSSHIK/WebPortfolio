@@ -80,6 +80,22 @@ const MY_PROJECTS: Array<Project> = [
 		skills: getSkills('AWS', 'html', 'css', 'js'),
 		type: 'Cloud Deployment',
 	},
+	{
+		slug: 'coming-soon',
+		color: '#b901ff',
+		description:
+			'To see more of my projects, please check back soon. I am constantly working on new and exciting projects, and I can\'t wait to share them with you!<div style="height: 10px;"></div> I am currently working on <ol><li>A web application for an Elevation Based Navigation System. For more details, explore the <a href="https://github.com/KAUSSHIK/EleNav">GitHub repository.</a></li> <li>A Make2Innovate (M2I) initiative st Iowa State University where my team is trying to make a HUD (Heads Up Display) for astronaut helmets.</li>',
+		shortDescription:
+			'More major projects are comign soon, but feel free to explore my GitHub for other relevant and smaller scale projects.<br><br><b>Role:</b> Aspiring Software Engineer',
+		links: [{ to: 'https://github.com/KAUSSHIK/KAUSSHIK', label: 'Kausshik\'s GitHub' }],
+		logo: Assets.github,
+		name: 'Miscellaneous Projects',
+		period: {
+			from: new Date('2018-04-01')
+		},
+		skills: getSkills('py', 'java', 'css', 'js', 'sql'),
+		type: 'Other Projects',
+	},
 ];
 
 export default MY_PROJECTS;
