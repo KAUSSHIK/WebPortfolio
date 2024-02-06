@@ -82,6 +82,7 @@ const Assets = {
 	Svn: a('svn.svg'),
 	Springio: a('springio.svg'),
 	RTX: a('RTX.png'),
+	ISU: a('ISU.png'),
 };
 
 export default Assets;

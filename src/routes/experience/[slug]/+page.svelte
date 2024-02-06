@@ -1,24 +1,26 @@
 <script lang="ts">
-	import CardLogo from '$lib/components/Card/CardLogo.svelte';
-	import MainTitle from '$lib/components/MainTitle/MainTitle.svelte';
+	import CardLogo from "$lib/components/Card/CardLogo.svelte";
+	import MainTitle from "$lib/components/MainTitle/MainTitle.svelte";
 
-	import { base } from '$app/paths';
-	import type { Experience } from '$lib/types';
-	import { getAssetURL } from '$lib/data/assets';
-	import { EXPERIENCES } from '$lib/params';
-	import Markdown from '$lib/components/Markdown.svelte';
-	import TabTitle from '$lib/components/TabTitle.svelte';
-	import Chip from '$lib/components/Chip/Chip.svelte';
-	import Banner from '$lib/components/Banner/Banner.svelte';
-	import UIcon from '$lib/components/Icon/UIcon.svelte';
-	import CardDivider from '$lib/components/Card/CardDivider.svelte';
-	import { getTimeDiff } from '$lib/utils';
+	import { base } from "$app/paths";
+	import type { Experience } from "$lib/types";
+	import { getAssetURL } from "$lib/data/assets";
+	import { EXPERIENCES } from "$lib/params";
+	import Markdown from "$lib/components/Markdown.svelte";
+	import TabTitle from "$lib/components/TabTitle.svelte";
+	import Chip from "$lib/components/Chip/Chip.svelte";
+	import Banner from "$lib/components/Banner/Banner.svelte";
+	import UIcon from "$lib/components/Icon/UIcon.svelte";
+	import CardDivider from "$lib/components/Card/CardDivider.svelte";
+	import { getTimeDiff } from "$lib/utils";
 
 	export let data: { experience?: Experience };
 
 	const { title } = EXPERIENCES;
 
-	$: computedTitle = data.experience ? `${data.experience.name} - ${title}` : title;
+	$: computedTitle = data.experience
+		? `${data.experience.name} - ${title}`
+		: title;
 </script>
 
 <TabTitle title={computedTitle} />
@@ -36,16 +38,26 @@
 					<div class="text-0.9em">
 						<MainTitle>{data.experience.name}</MainTitle>
 					</div>
-					<p class="font-300 text-[var(--tertiary-text)] m-y-2 text-center">
-						{data.experience.company} · {data.experience.location} · {data.experience.type}
+					<p
+						class="font-300 text-[var(--tertiary-text)] m-y-2 text-center"
+					>
+						{data.experience.company} · {data.experience.location} ·
+						{data.experience.type}
 					</p>
-					<p class="font-300 text-0.9em text-[var(--tertiary-text)] m-y-2 text-center">
-						{getTimeDiff(data.experience.period.from, data.experience.period.to)}
+					<p
+						class="font-300 text-0.9em text-[var(--tertiary-text)] m-y-2 text-center"
+					>
+						{getTimeDiff(
+							data.experience.period.from,
+							data.experience.period.to
+						)}
 					</p>
 					<div class="w-75%">
 						<CardDivider />
 					</div>
-					<div class="row-center flex-wrap text-[0.9em] text-[var(--tertiary-text)] m-b-2">
+					<div
+						class="row-center flex-wrap text-[0.9em] text-[var(--tertiary-text)] m-b-2"
+					>
 						{#each data.experience.links as item}
 							<Chip href={item.to}>
 								<div class="row-center gap-2">
@@ -64,7 +76,7 @@
 								<CardLogo
 									src={getAssetURL(item.logo)}
 									alt={item.name}
-									radius={'0px'}
+									radius={"0px"}
 									size={15}
 									classes="mr-2"
 								/>
@@ -77,12 +89,16 @@
 			<div class="pt-3 pb-1 overflow-x-hidden w-full">
 				<div class="px-10px m-y-5">
 					{#if data.experience.shortDescription}
-						<Markdown
-							content={data.experience.shortDescription ?? 'This place is yet to be filled...'}
-						/>
+						{@html data.experience.shortDescription ??
+							"This place is yet to be filled..."}
 					{:else}
-						<div class="p-5 col-center gap-3 m-y-auto text-[var(--border)]">
-							<UIcon icon="i-carbon-text-font" classes="text-3.5em" />
+						<div
+							class="p-5 col-center gap-3 m-y-auto text-[var(--border)]"
+						>
+							<UIcon
+								icon="i-carbon-text-font"
+								classes="text-3.5em"
+							/>
 							<p class="font-300">No description...</p>
 						</div>
 					{/if}
