@@ -71,7 +71,7 @@ export const SKILLS: SkillsPageParams = {
 
 export const RESUME: ResumePageParams = {
 	title: 'Resumé',
-	item: '/KausshikResume.pdf'
+	item: '/slick-portfolio-svelte/KausshikResume.pdf'
 };
 
 export const SEARCH: SearchPageParams = {
