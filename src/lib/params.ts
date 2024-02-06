@@ -12,6 +12,8 @@ import {
 } from './types';
 import { Icons } from './utils';
 
+import { base } from '$app/paths';
+
 export const TITLE_SUFFIX = 'Kausshik\'s Portfolio';
 
 export const NavBar = {
@@ -71,7 +73,7 @@ export const SKILLS: SkillsPageParams = {
 
 export const RESUME: ResumePageParams = {
 	title: 'Resumé',
-	item: '/KausshikResume.pdf'
+	item: `${base}/KausshikResume.pdf`
 };
 
 export const SEARCH: SearchPageParams = {
