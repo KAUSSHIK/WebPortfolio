@@ -55,7 +55,7 @@ const Assets = {
 	Firebase: a('firebase.png'),
 	Sass: a('sass.png'),
 	Unknown: a('no-img.svg'),
-	MongoDB: a('MongoDB.svg'),
+	MongoDB: a('mongodb.svg'),
 	Redis: a('redis.svg'),
 	Tailwind: a('tailwind.svg'),
 	HTML: a('html.svg'),
