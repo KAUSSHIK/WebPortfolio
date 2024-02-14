@@ -132,6 +132,7 @@ declare module '$env/static/private' {
 	export const VSCODE_GIT_ASKPASS_NODE: string;
 	export const GIT_ASKPASS: string;
 	export const _P9K_SSH_TTY: string;
+	export const DISPLAY: string;
 	export const npm_config_init_version: string;
 	export const npm_config_ignore_optional: string;
 	export const npm_package_devDependencies__types_dompurify: string;
@@ -275,6 +276,7 @@ declare module '$env/dynamic/private' {
 		VSCODE_GIT_ASKPASS_NODE: string;
 		GIT_ASKPASS: string;
 		_P9K_SSH_TTY: string;
+		DISPLAY: string;
 		npm_config_init_version: string;
 		npm_config_ignore_optional: string;
 		npm_package_devDependencies__types_dompurify: string;
