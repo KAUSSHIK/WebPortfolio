@@ -84,7 +84,7 @@ const MY_PROJECTS: Array<Project> = [
 		slug: 'coming-soon',
 		color: '#b901ff',
 		description:
-			'To see more of my projects, please check back soon. I am constantly working on new and exciting projects, and I can\'t wait to share them with you!<div style="height: 10px;"></div> I am currently working on <ol><li>A web application for an Elevation Based Navigation System. For more details, explore the <a href="https://github.com/KAUSSHIK/EleNav">GitHub repository.</a></li> <li>A Make2Innovate (M2I) initiative st Iowa State University where my team is trying to make a HUD (Heads Up Display) for astronaut helmets.</li>',
+			'To see more of my projects, please check back soon. I am constantly working on new and exciting projects, and I can\'t wait to share them with you!<div style="height: 10px;"></div> I am currently working on <ol><li>A web application for an Elevation Based Navigation System. For more details, explore the <a href="https://github.com/KAUSSHIK/EleNav">GitHub repository</a>.</li> <li>A Make2Innovate (M2I) initiative st Iowa State University where my team is trying to make a HUD (Heads Up Display) for astronaut helmets.</li><li>To look at all the porjects i worked on since highschool please explore my <a href="https://github.com/KAUSSHIK/">GitHub repositories</a>.</li></ol>',
 		shortDescription:
 			'More major projects are comign soon, but feel free to explore my GitHub for other relevant and smaller scale projects.<br><br><b>Role:</b> Aspiring Software Engineer',
 		links: [{ to: 'https://github.com/KAUSSHIK/KAUSSHIK', label: 'Kausshik\'s GitHub' }],

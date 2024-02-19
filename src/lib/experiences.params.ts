@@ -16,7 +16,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		color: '#ffffff',
 		links: [],
 		logo: Assets.RTX,
-		shortDescription: 'At Collins Aerospace, I executed high-level and low-level tests within an Agile environment, significantly enhancing software reliability.<div style="height: 10px;"></div>My role involved translating requirements into structured ADA code, aligning with project objectives for flight management systems. I led the formulation and refinement of certain test cases, improving testing efficiency and mitigating security risks.<div style="height: 10px;"></div>Additionally, I played a key role in updating a vast old code base with newer calculations to improve the accuracy of flight management systems'
+		shortDescription:"At Collins Aerospace, I executed high-level and low-level tests within an Agile environment, significantly enhancing software reliability.<div style=\"height: 10px;\"></div>My role involved translating requirements into structured ADA code, aligning with project objectives for flight management systems. In adherence to DO-178B and DO-178C guidelines, I led the formulation and refinement of certain test cases, improving testing efficiency and mitigating security risks.<div style=\"height: 10px;\"></div>Additionally, I played a key role in updating a vast old code base with newer calculations to improve the accuracy of flight management systems. My work contributed to maintaining high standards of software quality and reliability, ensuring compliance with rigorous aerospace software development standards."
 	},
 	{
 		slug: 'it-technician',
