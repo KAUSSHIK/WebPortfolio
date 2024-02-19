@@ -93,7 +93,7 @@ const MY_PROJECTS: Array<Project> = [
 		period: {
 			from: new Date('2018-04-01')
 		},
-		skills: getSkills('py', 'java', 'css', 'js', 'sql'),
+		skills: getSkills('py', 'java', 'css', 'js', 'sql', 'c', 'c++'),
 		type: 'Other Projects',
 	},
 ];

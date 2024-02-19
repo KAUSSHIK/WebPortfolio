@@ -117,7 +117,7 @@ const MY_SKILLS = [
 		description:
 			'Developed a Android Application with a Spring backend',
 		logo: Assets.Spring,
-		name: 'Spring'
+		name: 'Spring Boot'
 	}),
 	s({
 		slug: 'Linux',
@@ -158,6 +158,30 @@ const MY_SKILLS = [
 			'Use SVN for version control for my work at Collins Aerospace',
 		logo: Assets.Svn,
 		name: 'Apache Subversion'
+	}),
+	s({
+		slug: 'docker',
+		color: 'blue',
+		description:
+			'Familiar with Docker and containerization',
+		logo: Assets.Docker,
+		name: 'Docker'
+	}),
+	s({
+		slug: 'c++',
+		color: 'blue',
+		description:
+			'Familiar with C++',
+		logo: Assets.Cpp,
+		name: 'C++'
+	}),
+	s({
+		slug: 'c',
+		color: 'blue',
+		description:
+			'Familiar with C',
+		logo: Assets.C,
+		name: 'C'
 	}),
 ];
 
